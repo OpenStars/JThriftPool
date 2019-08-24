@@ -1,0 +1,5 @@
+/zserver/thrift8/bin/thrift --gen java wtcommon.thrift
+#/zserver/thrift8/bin/thrift --gen cpp:pure_enums wtcommon.thrift
+/zserver/thrift8/bin/thrift --gen java kv.thrift
+
+/zserver/thrift8/bin/thrift --gen java wtbackup.thrift

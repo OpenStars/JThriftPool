@@ -1,0 +1,8 @@
+/zserver2/bin/thrift --gen java wtcommon.thrift
+/zserver2/bin/thrift --gen cpp:pure_enums wtcommon.thrift
+/zserver2/bin/thrift --gen cpp:pure_enums kv.thrift
+/zserver2/bin/thrift --gen php wtcommon.thrift
+
+/zserver2/bin/thrift --gen java wtbackup.thrift
+/zserver2/bin/thrift --gen cpp:pure_enums wtbackup.thrift
+/zserver2/bin/thrift --gen php wtbackup.thrift
